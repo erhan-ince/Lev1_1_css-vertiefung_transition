@@ -1,0 +1,13 @@
+section {
+   border-top: 5px solid black;
+   border-left: 5px solid black;
+}
+div:first-of-type {
+   width: 10%;
+   height: 100px;
+   background-color: red;
+   transition: 3s;
+}
+div:last-of-type:hover {
+   width: 100%;
+}
